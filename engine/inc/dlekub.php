@@ -24,8 +24,6 @@ if( !$user_group[$member_id['user_group']]['admin_rss'] )
     msg("error", $lang['index_denied'], $lang['index_denied']);
 }
 
-// asd
-
 //////////////// INSTALL /////////////////////
 /*
   file: engine/modules/show.full.php
