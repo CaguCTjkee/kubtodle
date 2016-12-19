@@ -164,7 +164,6 @@ $set['vkub_shortstory'] = !empty($set['vkub_shortstory']) ? $set['vkub_shortstor
 if( !empty($_POST['why']) )
     $set['vkub_shortstory'] = !empty($_POST['shortstory']) ? $_POST['shortstory'] : NULL;
 $_POST['shortstory'] = !empty($set['vkub_shortstory']) ? stripslashes($set['vkub_shortstory']) : '[image]' . "\n" . '[description]';
-// huy
 
 $set['vkub_fullstory'] = !empty($set['vkub_fullstory']) ? $set['vkub_fullstory'] : NULL;
 if( !empty($_POST['why']) )
